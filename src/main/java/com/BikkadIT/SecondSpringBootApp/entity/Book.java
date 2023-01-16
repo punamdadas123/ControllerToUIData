@@ -29,6 +29,16 @@ public class Book {
 	public String toString() {
 		return "Book [bookId=" + bookId + ", bookName=" + bookName + ", bookPrice=" + bookPrice + "]";
 	}
+	public Book() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Book(int bookId, String bookName, double bookPrice) {
+		super();
+		this.bookId = bookId;
+		this.bookName = bookName;
+		this.bookPrice = bookPrice;
+	}
 	
 	
 	
